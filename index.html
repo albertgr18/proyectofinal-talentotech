@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores de mi Argentina</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="imagenes/logo.png" alt="Logo Sabores de mi Argentina" id="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#empanadas">Empanadas</a></li>
+        <li><a href="pages/empresa.html">Nuestra empresa</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <div class="imagen-fondo">
+      </div> 
+      <div class="contenido-inicio">
+        <h2>Bienvenido a Sabores de mi Argentina</h2>
+        <p>Descubre las auténticas empanadas argentinas, elaboradas con recetas tradicionales y los mejores ingredientes.
+        </p>
+      </div>
+    </section>
+
+    <section id="empanadas">
+      <h2>Nuestras Empanadas</h2>
+      <div class="contenedor-empanadas"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://x.com/?lang=es" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2023 Sabores de mi Argentina</p>
+  </footer>
+
+  <button id="ver-carrito"><i class="fas fa-shopping-cart"></i> Ver Carrito</button>
+
+  <div id="carritoModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Mi Carrito</h2>
+      <ul id="carrito-items"></ul>
+      <button id="vaciar-carrito">Vaciar Carrito</button>
+      <button id="pagar-pedido">Pagar Pedido</button>
+    </div>
+  </div>
+  <div id="mensaje-carrito"></div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

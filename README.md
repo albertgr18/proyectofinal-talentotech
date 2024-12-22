@@ -9,7 +9,7 @@ El sitio web fue creado como un proyecto de aprendizaje para el curso "Talento T
 El sitio web incluye las siguientes secciones:
 
 *   **Inicio:**  Presenta la empresa y muestra imágenes atractivas de las empanadas.
-*   **Empanadas:**  Describe los diferentes tipos de empanadas con imágenes y detalles de cada una. Permite agregar los productos a un carrito de compras.
+*   **Empanadas:**  Describe los diferentes tipos de empanadas con imágenes y detalles de cada una. También permite agregar los productos a un carrito de compras y simular una compra.
 *   **Nuestra empresa:** Cuenta la historia ficticia de la empresa.
 *   **Contacto:**  Incluye un formulario de contacto para que los usuarios puedan enviar consultas.
 

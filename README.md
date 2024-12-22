@@ -22,7 +22,7 @@ El sitio web incluye las siguientes secciones:
 ## Cómo ver el sitio web
 
 1.  Clonar el repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
-2.  Abrir el archivo `index.html` en un navegador web o ingresar a la URL funcional [https://albertgr18.github.io/proyecto-talentotech/](https://albertgr18.github.io/proyectofinal-talentotech/).
+2.  Abrir el archivo `index.html` en un navegador web o ingresar a la URL funcional [https://albertgr18.github.io/proyectofinal-talentotech/](https://albertgr18.github.io/proyectofinal-talentotech/).
 
 ## Autor
 Alberto Carlos Garcia
